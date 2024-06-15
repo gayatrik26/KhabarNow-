@@ -16,12 +16,12 @@ export default class Navbar extends Component {
                                 <li className="nav-item"><Link className="nav-link active" aria-current="page" to="/">Home</Link>
                                 </li>
                                 <li className="nav-item"><Link className="nav-link" to="/about">About</Link></li>
-                                <li className='nav-item'><Link className="nav-link" to="/business">business</Link></li>
-                                <li className='nav-item'><Link className="nav-link" to="/general">general</Link></li>
-                                <li className='nav-item'><Link className="nav-link" to="/entertainment">entertainment</Link></li>
-                                <li className='nav-item'><Link className="nav-link" to="/health">health</Link></li>
-                                <li className='nav-item'><Link className="nav-link" to="/sports">sports</Link></li>
-                                <li className='nav-item'><Link className="nav-link" to="/technology">technology</Link></li>
+                                <li className='nav-item'><Link className="nav-link" to="/business">Business</Link></li>
+                                <li className='nav-item'><Link className="nav-link" to="/general">General</Link></li>
+                                <li className='nav-item'><Link className="nav-link" to="/entertainment">Entertainment</Link></li>
+                                <li className='nav-item'><Link className="nav-link" to="/health">Health</Link></li>
+                                <li className='nav-item'><Link className="nav-link" to="/sports">Sports</Link></li>
+                                <li className='nav-item'><Link className="nav-link" to="/technology">Technology</Link></li>
 
                             </ul>
                             {/* <form className="d-flex" role="search">

@@ -4,10 +4,12 @@ export default class NewsItem extends Component {
     render() {
         let { title, description, imgURL, newsUrl, author, date, source } = this.props;
         return (
-            <div className='my-3 mx-1 card' style={{ boxShadow: "0px 0px 4px #d4ecff" }}>
+            <div className='my-3 mx-1 card' style={{ boxShadow: "0px 0px 4px #d4ecff"}} >
                 <div className="card" style={{ Height: "28rem" }} >
-                    <span className="position-absolute top-0 translate-middle badge rounded-pill bg-success" style={{ zIndex: "1", left: "92%" }}>
-                    {source}</span>
+                    <div className="container" style={{display : "flex" , justifyContent : "flex-end" , position : "absolute" , right :"0"}}>
+                        <span className="badge rounded-pill bg-success">
+                        {source}</span>
+                    </div>
                     <img src={!imgURL ? "https://placehold.co/320x180" : imgURL} className="card-img-top" style={{ maxHeight: "180px" }} alt="" />
                     <div className="card-body">
                         <h5 className="card-title">{title}</h5>

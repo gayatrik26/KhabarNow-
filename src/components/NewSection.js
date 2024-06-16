@@ -35,7 +35,7 @@ export default class NewSection extends Component {
             this.props.setProgress(20);
             const { page } = this.state;
             const { country, category, pagesize } = this.props;
-            const URL = `https://newsapi.org/v2/top-headlines?country=${country}&apiKey=23b57123c1374fb5a5e08563dc342515&category=${category}&page=${page}&pageSize=${pagesize}`;
+            const URL = `https://newsapi.org/v2/top-headlines?country=${country}&apiKey=${this.props.apikey}&category=${category}&page=${page}&pageSize=${pagesize}`;
             this.setState({ loading: true });
             const data = await fetch(URL);
             this.props.setProgress(40);

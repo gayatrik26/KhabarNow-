@@ -21,6 +21,5 @@ const NewsItem = (props) => {
     )
    
 }
-// style={{width : "21rem" ,minHeight : "24rem", overflow : "hidden"}}
 
 export default NewsItem;

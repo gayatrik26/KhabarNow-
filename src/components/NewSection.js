@@ -10,7 +10,6 @@ const NewSection = (props) => {
     const [page, setPage] = useState(1);
     const [totalResults, setTotalResults] = useState(0);
 
-    // document.title = `KhabarNow+ ${props.category}`;
 
     const fetchDATA = async () => {
         try {

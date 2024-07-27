@@ -1,16 +1,16 @@
 # KhabarNow+
 
-KhabarNow+ is an upgraded version of KhabarNow, a real-time news application built with ReactJS. It fetches news data from various categories such as politics, IPL, finance, and more using the News API.
+KhabarNow+ is an upgraded version of KhabarNow, a real-time news application built with ReactJS. It fetches news from various categories such as politics, IPL, finance, and more using the News API.
 
 ## Features
 
-- **Real-time News Updates**: Get the latest news updates from multiple categories.
-- **Category-based Filtering**: News categorized into sections like politics, IPL, finance, etc.
-- **Infinite Scroll**: Seamlessly load more news articles as you scroll down the page.
+- **Real-time News Updates**: Get the latest news from multiple categories.
+- **Category-based Filtering**: Filter news into sections like politics, IPL, finance, etc.
+- **Infinite Scroll**: Seamlessly load more news articles as you scroll.
 - **Top Loading Bar**: Visual progress indicator for content loading.
-- **Responsive Design**: Built using ReactJS, ensuring a responsive and user-friendly experience across devices.
-- **React Router**: Utilized for navigation within the application.
-- **React Hooks**: Leveraged useState and useEffect for state management and side effects.
+- **Responsive Design**: Ensures a user-friendly experience across devices.
+- **React Router**: Navigation within the application.
+- **React Hooks**: Utilizes `useState` and `useEffect` for state management and side effects.
 
 ## Technologies Used
 
